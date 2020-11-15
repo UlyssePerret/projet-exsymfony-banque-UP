@@ -6,7 +6,7 @@
 
 # the "app_banque" route name is not important yet
 app_banque:
-    path: /banque
+    path: /banque.html
     controller: App\Controller\BanqueController::number
 
     

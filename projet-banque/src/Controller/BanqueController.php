@@ -17,6 +17,7 @@ class BanqueController extends AbstractController
 
         return $this->render('banque/banque.html.twig', [
             'number' => $number,
+            'controller_name' => 'BanqueController',
         ]);
 
     }
