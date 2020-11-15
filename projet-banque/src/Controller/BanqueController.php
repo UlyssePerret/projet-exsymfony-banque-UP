@@ -4,8 +4,9 @@ namespace App\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-class BanqueController
+class BanqueController extends AbstractController
 {
     /**
     * @Route("/banque")
@@ -14,10 +15,9 @@ class BanqueController
     {
         $number = random_int(0, 100);
 
-        return new Response(
-            '<html><body>
-            Je suis une banque </br>
-            Lucky number: '.$number.'</body></html>'
-        );
+        return $this->render('banque/banque.html.twig', [
+            'number' => $number,
+        ]);
+
     }
 }

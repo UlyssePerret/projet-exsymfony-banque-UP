@@ -4,7 +4,7 @@
 
 # config/routes.yaml
 
-# the "app_lucky_number" route name is not important yet
-app_lucky_number:
+# the "app_banque" route name is not important yet
+app_banque:
     path: /banque
     controller: App\Controller\BanqueController::number
