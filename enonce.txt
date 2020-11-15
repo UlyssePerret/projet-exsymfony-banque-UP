@@ -1,0 +1,22 @@
+Bonjour à tous,
+Comme je vous l'ai dit vendredi, vous allez devoir faire un projet en Symfony en individuel qui sera noté, dont voici les consignes :
+Vous allez devoir créer une application de gestion de compte bancaire. Cette application doit :
+- Permettre à des users de se login et de se logout
+- Permettre à des users ADMIN de créer de nouveaux utilisateurs
+- Permettre à des users ADMIN de créer, éditer, afficher et supprimer des comptes bancaires à un utilisateur
+- Permettre à des users non ADMIN de voir leur comptes bancaires et d’en afficher le solde actuel
+- Permettre à des users non ADMIN de pouvoir ajouter des bénéficiaires en rentrant l’iban d’un compte bancaire
+- Permettre à des users non ADMIN de créer des transactions avec comme compte débité, un compte qui lui appartient, et comme compte crédité, soit un compte qui lui appartient, soit le compte d’un de ses bénéficiaires
+Un compte bancaire doit contenir un iban, un solde initial, une liste de transactions de crédits, une liste de transactions de débits et être lié à un user
+Une transaction doit contenir un compte débité, un compte crédité, ainsi qu'un montant et une date
+Un user doit contenir un nom, un prénom et une date de naissance
+
+Le “sole actuel” correspond à : solde initial + somme des crédits - somme des débits
+
+N’hésitez pas à intégrer un peu de CSS et de javascript dans votre application afin de la rendre jolie. (Je sais que nous ne l’avons pas fait en cours mais la documentation de Symfony vous donnes tout ce qu’il faut pour le faire)
+Utilisez bien la documentation de Symfony !
+
+Je suis disponible sur Discord pour répondre au questions si besoin. Essayez de les poser en priorités sur le channel symfony en me taguant dessus afin que tout le monde puisse profiter de la réponse 
+Le projet est à me rendre au plus tard le 20/12/2020 à 23h59, par mail (romain.desajardim@gmail.com) en me mettant dans le mail : 
+- Le lien vers votre repo (GitHub, GitLab, Bitbucket, ou autre)
+ - Votre nom prénom
