@@ -29,9 +29,12 @@ php -r "if (hash_file('sha384', 'composer-setup.php') === '756890a4488ce9024fc62
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
 
-On utilisera le queslette website-skeleton pour le projet web
+On utilisera le squelettelette website-skeleton pour le projet web
 (Recommendation)
 composer create-project symfony/website-skeleton projet-banque-UP
+
+Rappel installation Symfony
+https://symfony.com/doc/current/setup.html
 
 
 V 0.1
