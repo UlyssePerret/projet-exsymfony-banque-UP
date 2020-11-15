@@ -1,0 +1,19 @@
+<?php
+// src/Controller/LuckyController.php
+namespace App\Controller;
+
+use Symfony\Component\HttpFoundation\Response;
+
+class BanqueController
+{
+    public function number(): Response
+    {
+        $number = random_int(0, 100);
+
+        return new Response(
+            '<html><body>
+            Je suis une banque </br>
+            Lucky number: '.$number.'</body></html>'
+        );
+    }
+}
