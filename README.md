@@ -1,12 +1,11 @@
 # projet-exsymfony-banque-UP
 
 Création 15 Novembre
-Modification
+Modification 15 Novembre
 Version : 0.1
 Auteur :Ulysse Perret
 
 Git : https://github.com/UlyssePerret/projet-exsymfony-banque-UP
-
 
 Installation
 First, clone this repository:
@@ -17,7 +16,6 @@ Prérequis
 Php 7.1
 Verifier  php -v
 Si besoin d'une meilleur version
-
 Doc 
 https://www.php.net
 Windows
@@ -36,12 +34,17 @@ php -r "if (hash_file('sha384', 'composer-setup.php') === '756890a4488ce9024fc62
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
 
+Lancer le serveur
+symfony server:start  
+
 On utilisera le squatte website-skeleton pour le projet web
-(Recommendation)
+
 composer create-project symfony/website-skeleton projet-banque-UP
 
 V 0.1
 - Création du dossier
 - enonce.Txt
-- Ajout sur gita
+- Ajout sur git
+- ajout annontation / composer
+- Premier page banque
 
