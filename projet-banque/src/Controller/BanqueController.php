@@ -9,7 +9,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 class BanqueController extends AbstractController
 {
     /**
-    * @Route("/banque")
+    * @Route("/banque", name="banque")
     */
     public function number(): Response
     {
